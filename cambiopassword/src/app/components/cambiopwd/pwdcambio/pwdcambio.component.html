@@ -1,0 +1,68 @@
+<style type="text/css">
+    div#links{
+        float:left;
+    }
+    div#menu{
+        float:right;
+    }
+    div#credits{
+        clear:both;
+    }
+</style>
+
+<h5 class=" text-center" id="menu">Cambio de contraseña</h5>
+        <hr>
+<div class="form-group" id="menu">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <i class="fa fa-user-circle"></i>
+                </div>
+                
+            </div>
+            <input type="hidden" name="pwdactual" formControlName = "pwdactual">
+
+            <input name="pwdactual" formControlName = "pwdactual" class="form-control" placeholder="Contraseña actual">
+        </div> 
+
+        <hr>
+
+        <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text bg-white">
+                        <i class="fa fa-user-circle"></i>
+                    </div>
+                    
+                </div>
+                <input type="hidden" name="pwdnueva" formControlName = "pwdnueva">
+    
+                <input name="pwdnueva" formControlName = "pwdnueva" class="form-control" placeholder="Contraseña nueva">
+        </div> 
+
+        <hr>
+
+        <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text bg-white">
+                        <i class="fa fa-user-circle"></i>
+                    </div>
+                    
+                </div>
+                <input type="hidden" name="confirmarpwd" formControlName = "confirmarpwd">
+    
+                <input name="confirmarpwd" formControlName = "confirmarpwd" class="form-control" placeholder="Confirmar contraseña">
+        </div> 
+        <hr>
+
+        <div>
+                <button type="button" class="btn btn-primary">Establecer pregunta de seguridad</button>
+                
+                <div class="alert alert-success">
+                    <button type="button" class="btn btn-success">Actualizar</button>
+                    <strong>Success!</strong> Indicates a successful or positive action.
+                </div>
+        </div>
+        
+        
+</div>
+
